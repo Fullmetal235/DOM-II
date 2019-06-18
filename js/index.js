@@ -34,6 +34,10 @@ img2.addEventListener('mousedown', function(event){
   event.target.style.opacity = '1';
 });
 
+const img4 = document.querySelector('#img4');
+img4.addEventListener('mouseleave', function(event){
+    event.target.style.border = '3px';
+  })
 
 window.addEventListener("load", function(event) {
     alert("The page has now loaded");
