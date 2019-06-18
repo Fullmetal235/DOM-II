@@ -40,7 +40,7 @@ img4.addEventListener('mouseleave', function(event){
   })
 
   const img3 = document.querySelector('#img3');
-  img3.addEventListener('dlclick', function(event){
+  img3.addEventListener('dblclick', function(event){
     event.target.style.border = '5px solid dodgerblue';
   });
 
