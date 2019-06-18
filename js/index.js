@@ -6,13 +6,13 @@ button1.addEventListener('click', function(event){
 
 
 const button2 = document.querySelector('#button2');
-button1.addEventListener('click', function(event){
+button2.addEventListener('click', function(event){
   event.target.style.color = 'white';
 });
 
 
 const button3 = document.querySelector('#button3');
-button1.addEventListener('click', function(event){
+button3.addEventListener('click', function(event){
   event.target.style.color = 'blue';
 });
 
