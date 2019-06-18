@@ -41,7 +41,14 @@ img4.addEventListener('mouseleave', function(event){
 
 
 
-  
+
 window.addEventListener("load", function(event) {
     alert("The page has now loaded");
     });
+
+
+    const navPrevent = document.querySelector('nav');
+navPrevent.addEventListener('click', function(event){
+  event.preventDefault();
+  alert("You can't click on it because you lost on jeopardy");
+})
