@@ -36,10 +36,13 @@ img2.addEventListener('mousedown', function(event){
 
 const img4 = document.querySelector('#img4');
 img4.addEventListener('mouseleave', function(event){
-    event.target.style.border = '3px';
+    event.target.style.border = '3px solid green';
   })
 
-
+  const img3 = document.querySelector('#img3');
+  img3.addEventListener('dlclick', function(event){
+    event.target.style.border = '5px solid dodgerblue';
+  });
 
 
 window.addEventListener("load", function(event) {
