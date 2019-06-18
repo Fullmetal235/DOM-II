@@ -25,7 +25,7 @@ img1.addEventListener('mouseenter', function(event){
 
 
  const img2 = document.querySelector('#img2');
-img4.addEventListener('mousedown', function(event){
+img2.addEventListener('mousedown', function(event){
   event.target.style.opacity = '0';
 });
 
