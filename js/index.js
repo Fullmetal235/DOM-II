@@ -33,3 +33,8 @@ img4.addEventListener('mousedown', function(event){
  img2.addEventListener('mouseup', function(event){
   event.target.style.opacity = '1';
 });
+
+
+window.addEventListener("load", function(event) {
+    alert("The page has now loaded");
+    });
